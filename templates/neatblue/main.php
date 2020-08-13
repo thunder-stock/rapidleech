@@ -468,7 +468,7 @@ ob_end_flush();
 }
 ?>
 <hr />
-<?php echo CREDITS;?><footer>&copy; Design : blacklizt</footer>
+<?php echo CREDITS;?><footer>&copy; Design : <a href="https://instagram.com/thunderamasg/">thunder</a></footer>
 </div>
 </td>
 </tr>

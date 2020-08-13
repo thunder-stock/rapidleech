@@ -10,7 +10,7 @@
 <title><?php
 if (!isset($nn)) $nn = "\r\n";
 if (!isset($page_title)) {
-	echo 'Rapidleech v2 rev. '.$GLOBALS['rev_num'];
+	echo 'thunderleech v2 rev. '.$GLOBALS['rev_num'];
 } else {
 	echo htmlspecialchars($page_title);
 }
@@ -31,4 +31,4 @@ if ($GLOBALS['options']['flist_sort']) { echo '<script src="classes/sorttable.js
 <script type="text/javascript">function toggle(b){var a=document.getElementById(b);if(a.style.display=="none"){a.style.display="block"}else{a.style.display="none"}};</script>
 </head>
 <body>
-<header><img src="templates/neatblue/images/logo_pm.gif" height="62" width="369" alt="rapidleech neatblue"></header><br />
+<header><center><h1 style="color:#0000F1;">thunderLeech</h1></center><br />
